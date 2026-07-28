@@ -1,0 +1,34 @@
+.subject-section {
+  margin-top: 2rem;
+
+  & > h2 {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    margin: 0 0 0.5rem 0;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--lightgray);
+    font-size: 1.2rem;
+
+    & > a.internal {
+      background-color: transparent;
+      color: var(--secondary);
+    }
+
+    & > .subject-section-count {
+      font-size: 0.75rem;
+      font-weight: normal;
+      color: var(--gray);
+    }
+  }
+
+  & .page-listing {
+    margin-top: 0;
+  }
+
+  & > .subject-section-empty {
+    margin: 0.5rem 0 0 0;
+    font-size: 0.85rem;
+    color: var(--gray);
+  }
+}

@@ -5,11 +5,18 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  // A grade de disciplinas so faz sentido na home; nas demais paginas a
+  // navegacao ja vem do explorer e do breadcrumb.
+  afterBody: [
+    Component.ConditionalRender({
+      component: Component.SubjectCards(),
+      condition: (page) => page.fileData.slug === "index",
+    }),
+  ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      Repositorio: "https://github.com/luizhferreira/vault_20262",
+      Quartz: "https://quartz.jzhao.xyz/",
     },
   }),
 }
@@ -40,11 +47,9 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer(),
   ],
-  right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
-  ],
+  // Graph view desligado de proposito: numa vault organizada por pastas rigidas
+  // ele nao acrescenta navegacao, so ruido visual.
+  right: [Component.DesktopOnly(Component.TableOfContents()), Component.Backlinks()],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
