@@ -1,8 +1,8 @@
 ---
-title: Cálculo 2
-emoji: ∫
-codigo: MAT2454
-descricao: Integrais múltiplas, séries e equações diferenciais
+title: Intro Redes
+emoji:
+codigo:
+descricao:
 ---
 
 Material da disciplina organizado por tipo. Provas antigas ficam em `Provas`,
