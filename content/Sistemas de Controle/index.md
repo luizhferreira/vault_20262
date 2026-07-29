@@ -1,8 +1,8 @@
 ---
-title: Sistemas de Controle
-emoji: 📐
-codigo:
-descricao: Modelagem de sistemas dinâmicos, lugar das raízes, resposta em frequência, estabilidade e projeto de compensadores.
+title: "Sistemas de Controle"
+emoji: "📐"
+codigo: ""
+descricao: "Modelagem de sistemas dinâmicos, lugar das raízes, resposta em frequência, estabilidade e projeto de compensadores."
 ---
 
 Modelagem de sistemas dinâmicos, lugar das raízes, resposta em frequência, estabilidade e projeto de compensadores.

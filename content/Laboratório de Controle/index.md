@@ -1,8 +1,8 @@
 ---
-title: Laboratório de Controle
-emoji: 🎛️
-codigo:
-descricao: Experimentos de identificação de sistemas, sintonia de controladores PID e resposta em malha fechada.
+title: "Laboratório de Controle"
+emoji: "🎛️"
+codigo: ""
+descricao: "Experimentos de identificação de sistemas, sintonia de controladores PID e resposta em malha fechada."
 ---
 
 Experimentos de identificação de sistemas, sintonia de controladores PID e resposta em malha fechada.

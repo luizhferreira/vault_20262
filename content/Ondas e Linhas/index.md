@@ -1,8 +1,8 @@
 ---
-title: Ondas e Linhas
-emoji: 📡
-codigo:
-descricao: Ondas eletromagnéticas, propagação, linhas de transmissão, casamento de impedância e carta de Smith.
+title: "Ondas e Linhas"
+emoji: "📡"
+codigo: ""
+descricao: "Ondas eletromagnéticas, propagação, linhas de transmissão, casamento de impedância e carta de Smith."
 ---
 
 Ondas eletromagnéticas, propagação, linhas de transmissão, casamento de impedância e carta de Smith.

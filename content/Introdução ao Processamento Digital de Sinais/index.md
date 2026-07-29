@@ -1,8 +1,8 @@
 ---
-title: Introdução ao Processamento Digital de Sinais
-emoji: 🎚️
-codigo:
-descricao: Amostragem, transformada Z, DFT/FFT, filtros FIR e IIR e análise de sinais discretos.
+title: "Introdução ao Processamento Digital de Sinais"
+emoji: "🎚️"
+codigo: ""
+descricao: "Amostragem, transformada Z, DFT/FFT, filtros FIR e IIR e análise de sinais discretos."
 ---
 
 Amostragem, transformada Z, DFT/FFT, filtros FIR e IIR e análise de sinais discretos.

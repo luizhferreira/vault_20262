@@ -1,8 +1,8 @@
 ---
-title: Introdução a Redes e Comunicações
-emoji: 🌐
-codigo:
-descricao: Camadas de rede, protocolos TCP/IP, comutação, roteamento e fundamentos de sistemas de comunicação.
+title: "Introdução a Redes e Comunicações"
+emoji: "🌐"
+codigo: ""
+descricao: "Camadas de rede, protocolos TCP/IP, comutação, roteamento e fundamentos de sistemas de comunicação."
 ---
 
 Camadas de rede, protocolos TCP/IP, comutação, roteamento e fundamentos de sistemas de comunicação.
